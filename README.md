@@ -5,8 +5,11 @@
 ##### Installation 
     go get github.com/thantai574/saga-go
 ##### Import 
+    ```shell
     import github.com/thantai574/saga-go/saga_go
+    ```
 ##### Example 
+    ```shell
     sg := saga_go.NewSaga(Options{
         TypeSaga: TypeMemory,
     })
@@ -37,4 +40,5 @@
     coor := NewCoordinator(c, sg)
         
     coor.Start()
+    ```
 ##
