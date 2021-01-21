@@ -2,8 +2,8 @@ package saga_go
 
 import (
 	"context"
-	"saga_go/entities"
-	"saga_go/strategies/memory"
+	"github.com/thantai574/saga-go/entities"
+	"github.com/thantai574/saga-go/strategies/memory"
 )
 
 type (

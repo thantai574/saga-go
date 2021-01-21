@@ -2,7 +2,7 @@ package saga_go
 
 import (
 	"context"
-	"saga_go/entities"
+	"github.com/thantai574/saga-go/entities"
 )
 
 type coordinator struct {

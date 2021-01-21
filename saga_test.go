@@ -3,7 +3,7 @@ package saga_go
 import (
 	"context"
 	"fmt"
-	"saga_go/entities"
+	"github.com/thantai574/saga-go/entities"
 	"testing"
 )
 

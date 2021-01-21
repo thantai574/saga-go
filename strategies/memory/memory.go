@@ -2,7 +2,7 @@ package memory
 
 import (
 	"context"
-	"saga_go/entities"
+	"github.com/thantai574/saga-go/entities"
 )
 
 type SagaMemory struct {
