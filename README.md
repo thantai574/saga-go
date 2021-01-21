@@ -1,8 +1,7 @@
-#Go Saga Pattern 
+# Go Saga Pattern 
 #### Introduction 
     Implement golang for distributed transaction 
 
-### HOW TO USE
 ##### Installation 
     go get github.com/thantai574/saga-go
 ##### Import 
