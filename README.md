@@ -3,13 +3,17 @@
     Implement golang for distributed transaction 
 
 ##### Installation 
-    go get github.com/thantai574/saga-go
+```shell
+go get github.com/thantai574/saga-go
+```
 ##### Import 
-    ```shell
-    import github.com/thantai574/saga-go/saga_go
-    ```
+```go
+import github.com/thantai574/saga-go/saga_go
+```
 ##### Example 
-    ```shell
+```go
+    import github.com/thantai574/saga-go/saga_go
+    
     sg := saga_go.NewSaga(Options{
         TypeSaga: TypeMemory,
     })
@@ -40,5 +44,5 @@
     coor := NewCoordinator(c, sg)
         
     coor.Start()
-    ```
+```
 ##
