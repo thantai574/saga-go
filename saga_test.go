@@ -50,6 +50,17 @@ func TestSaga(t *testing.T) {
 					return nil
 				},
 			})
+
+			sg.AddStep(entities.Step{
+				Func: func(ctx context.Context) error {
+					fmt.Println(c.Value("test"))
+					return tt.errorStep[1]
+				},
+				Compensate: func(ctx context.Context) error {
+					fmt.Println("Cancel Step 2 ")
+					return nil
+				},
+			})
 			coor := NewCoordinator(c, sg)
 
 			coor.Start()
