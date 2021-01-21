@@ -1,8 +1,8 @@
-package saga
+package saga_go
 
 import (
 	"context"
-	"saga/entities"
+	"saga_go/entities"
 )
 
 type coordinator struct {

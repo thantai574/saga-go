@@ -1,9 +1,9 @@
-package saga
+package saga_go
 
 import (
 	"context"
-	"saga/entities"
-	"saga/strategies/memory"
+	"saga_go/entities"
+	"saga_go/strategies/memory"
 )
 
 type (

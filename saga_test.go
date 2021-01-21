@@ -1,9 +1,9 @@
-package saga
+package saga_go
 
 import (
 	"context"
 	"fmt"
-	"saga/entities"
+	"saga_go/entities"
 	"testing"
 )
 
