@@ -1,3 +1,3 @@
-module github.com/thantai574/saga-go
+module saga
 
 go 1.14
