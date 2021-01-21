@@ -8,11 +8,11 @@ go get github.com/thantai574/saga-go
 ```
 ##### Import 
 ```go
-import github.com/thantai574/saga-go/saga_go
+import saga_go "github.com/thantai574/saga-go"
 ```
 ##### Example 
 ```go
-import github.com/thantai574/saga-go/saga_go
+import saga_go "github.com/thantai574/saga-go"
 
 sg := saga_go.NewSaga(Options{
 TypeSaga: TypeMemory,
